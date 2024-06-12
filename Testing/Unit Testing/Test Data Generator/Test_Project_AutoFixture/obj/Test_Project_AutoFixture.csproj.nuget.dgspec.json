@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\disbusch\\source\\repos\\s9sebusc\\.NET-Developer-Roadmap-2024\\Testing\\Unit Testing\\Test Data Generator\\Test_Project_AutoFixture\\Test_Project_AutoFixture.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\disbusch\\source\\repos\\s9sebusc\\.NET-Developer-Roadmap-2024\\Testing\\Unit Testing\\Test Data Generator\\Test_Project_AutoFixture\\Test_Project_AutoFixture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\disbusch\\source\\repos\\s9sebusc\\.NET-Developer-Roadmap-2024\\Testing\\Unit Testing\\Test Data Generator\\Test_Project_AutoFixture\\Test_Project_AutoFixture.csproj",
+        "projectName": "Test_Project_AutoFixture",
+        "projectPath": "C:\\Users\\disbusch\\source\\repos\\s9sebusc\\.NET-Developer-Roadmap-2024\\Testing\\Unit Testing\\Test Data Generator\\Test_Project_AutoFixture\\Test_Project_AutoFixture.csproj",
+        "packagesPath": "C:\\Users\\disbusch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\disbusch\\source\\repos\\s9sebusc\\.NET-Developer-Roadmap-2024\\Testing\\Unit Testing\\Test Data Generator\\Test_Project_AutoFixture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\disbusch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nim-nuget-local/": {},
+          "http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nim-nuget-release-local/": {},
+          "http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nuget-local/": {},
+          "http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nuget-release/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[5.0.0-preview0011, )"
+            },
+            "AutoFixture.AutoMoq": {
+              "target": "Package",
+              "version": "[5.0.0-preview0011, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

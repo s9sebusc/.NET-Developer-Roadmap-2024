@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <Serilog>
+    <MinimumLevel>Information</MinimumLevel>
+    <WriteTo>
+      <Console />
+    </WriteTo>
+    <!--<Enrich>
+      <WithProperty Name="Version" Value="1.0.0" />
+    </Enrich>-->
+  </Serilog>
+</configuration>

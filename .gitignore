@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ORM/Test_Project_Entity_Dapper/.vs/Entity_Dapper
+/ORM/Test_Project_Entity_Dapper/bin/Debug
+/ORM/Test_Project_Entity_Dapper/obj/Debug

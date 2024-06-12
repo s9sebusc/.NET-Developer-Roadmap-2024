@@ -1,0 +1,14 @@
+D:\Weiterbildung\Design Patterns\Factory\Factory\bin\Release\net8.0\Factory.exe
+D:\Weiterbildung\Design Patterns\Factory\Factory\bin\Release\net8.0\Factory.deps.json
+D:\Weiterbildung\Design Patterns\Factory\Factory\bin\Release\net8.0\Factory.runtimeconfig.json
+D:\Weiterbildung\Design Patterns\Factory\Factory\bin\Release\net8.0\Factory.dll
+D:\Weiterbildung\Design Patterns\Factory\Factory\bin\Release\net8.0\Factory.pdb
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.AssemblyInfoInputs.cache
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.AssemblyInfo.cs
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.csproj.CoreCompileInputs.cache
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.dll
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\refint\Factory.dll
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.pdb
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\Factory.genruntimeconfig.cache
+D:\Weiterbildung\Design Patterns\Factory\Factory\obj\Release\net8.0\ref\Factory.dll

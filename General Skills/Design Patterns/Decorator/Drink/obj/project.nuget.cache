@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "+T33sKB64sogAVvIP8XwtwG7F2LaK8KRATz4R4S3whwIE/iK+dxPAfTfpIM5DhpmpWEwCOAWEb1BgsQJGuBccA==",
+  "success": true,
+  "projectFilePath": "D:\\Weiterbildung\\Design Patterns\\Decorator\\Drink\\Drink.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nuget-local/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nim-nuget-local/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nim-nuget-release-local/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://artifactory-medmuc.zeiss.org:8084/artifactory/api/nuget/nuget-release/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

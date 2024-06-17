@@ -43,14 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ForecastWeather.cs" />
-    <Compile Include="CurrentWeather.cs" />
-    <Compile Include="IDisplayWeatherData.cs" />
+    <Compile Include="NewsSubscriber.cs" />
     <Compile Include="IObserver.cs" />
-    <Compile Include="IWeatherData.cs" />
+    <Compile Include="INewsSubject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherData.cs" />
+    <Compile Include="NewsAgency.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

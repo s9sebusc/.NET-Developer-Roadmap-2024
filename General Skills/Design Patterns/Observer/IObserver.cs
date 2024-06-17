@@ -11,10 +11,6 @@ namespace ObserverPattern
    /// </summary>
    public interface IObserver
    {
-      /// <summary>Updates the specified weather data.</summary>
-      /// <param name="temp">The temperature.</param>
-      /// <param name="hud">The humidity.</param>
-      /// <param name="airPr">The air pressure.</param>
-      void Update(int temp, int hud, int airPr);
+	   void Update(string news);
    }
 }

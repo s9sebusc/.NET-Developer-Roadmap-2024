@@ -6,37 +6,20 @@ namespace ObserverPattern
    {
       public static void Main(string[] args)
       {
-         IWeatherData weatherData = new WeatherData();
+         NewsAgency newsAgency = new NewsAgency();
 
-         // Register new observer
-         CurrentWeather currentWeatherDisplay = new CurrentWeather();
-         ForecastWeather forecastWeatherDisplay = new ForecastWeather();
-         weatherData.RegisterObserver(currentWeatherDisplay);
-         weatherData.RegisterObserver(forecastWeatherDisplay);
+         NewsSubscriber subscriber1 = new NewsSubscriber("First Subscriber");
+         NewsSubscriber subscriber2 = new NewsSubscriber("Second Subscriber");
+         NewsSubscriber subscriber3 = new NewsSubscriber("Third Subscriber");
 
-         Console.WriteLine("Show weather before update:");
-         Console.WriteLine("----------------------------------------------");
-         currentWeatherDisplay.Display();
-         forecastWeatherDisplay.Display();
-         Console.WriteLine("----------------------------------------------");
+         newsAgency.RegisterObserver(subscriber1);
+         newsAgency.RegisterObserver(subscriber2);
+         newsAgency.RegisterObserver(subscriber3);
 
-         Console.WriteLine("Show weather after update:");
-         Console.WriteLine("----------------------------------------------");
-         weatherData.NotifyObserver(); // Update observer
-         Console.WriteLine("----------------------------------------------");
-
-         // Remove one observer => only one observer left
-         weatherData.RemoveObserver(forecastWeatherDisplay);
-
-         // Show data after update
-         Console.WriteLine("Show weather after removing forecast weather observer");
-         Console.WriteLine("----------------------------------------------");   
-         weatherData.NotifyObserver(); // Update observer
-         Console.WriteLine("----------------------------------------------");
+         newsAgency.UpdateNews("COVID-19 cases surge in several countries");
+         newsAgency.UpdateNews("New technology breakthrough announced");
 
          Console.ReadKey();
-
-
       }
    }
 }
